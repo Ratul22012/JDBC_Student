@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class MainDB {
     static final String URL = "jdbc:mysql://localhost:3306/Student";
-    static final String USER = "Atif";
-    static final String PASS = "arpita";
+    static final String USER = "Ratul";
+    static final String PASS = "1234";
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(URL, USER, PASS);
